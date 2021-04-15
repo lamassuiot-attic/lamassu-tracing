@@ -1,0 +1,7 @@
+cluster.name: lamassu-cluster
+network.host: 0.0.0.0
+xpack.security.enabled: true
+xpack.security.http.ssl.enabled: true
+xpack.security.http.ssl.key: /usr/share/elasticsearch/config/elastic.key
+xpack.security.http.ssl.certificate: /usr/share/elasticsearch/config/elastic.crt
+xpack.security.http.ssl.certificate_authorities: /usr/share/elasticsearch/config/elastic.crt
